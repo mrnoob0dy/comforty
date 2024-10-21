@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Comforty</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <a href="#!" class="header__top-shipping">
+                        <img src="./img/icons/check.svg" alt="Check" class="header__top-img">
+                        Free shipping on all orders over $50
+                    </a>
+                    <div class="header__top-btns">
+                        <button class="header__top-btn">
+                            Eng
+                            <img src="./img/icons/arrow-down.svg" alt="">
+                        </button>
+                        <a href="#!" class="header__top-link">Faqs</a>
+                        <a href="#!" class="header__top-link">
+                            <img src="./img/icons/alert-circle.svg" alt="">
+                            Need Help
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="container">
+                <div class="header__middle-inner">
+                    <a href="#!" class="logo">
+                        <img src="./img/icons/logo.svg" alt="Logotipe">
+                    </a>
+                    <div class="header__input">
+                        <input class="header__search" type="search" placeholder="Search here...">
+                        <img src="./img/icons/search.svg" alt="Search">
+                    </div>
+                    <div class="header__middle-links">
+                        <a href="#!" class="header__middle-link header__middle-link--cart">
+                            <img src="./img/icons/cart.svg" alt="Cart">
+                            Cart
+                            <div class="cart__counter" data-counter>0</div>
+                        </a>
+                        <a href="#!" class="header__middle-link">
+                            <img src="./img/icons/heart.svg" alt="Wishlist">
+                        </a>
+                        <a href="./signin.html" class="header__middle-link">
+                            <img src="./img/icons/profile.svg" alt="Profile">
+                        </a>
+                    </div>
+                    <div class="header__nav-contact header__nav-contact--mobile">
+                        Contact:
+                        <a href="tel:8085550111" class="header__nav-tel">(808) 555-0111</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="container">
+                <div class="header__nav-inner">
+                    <div class="header__nav-wrapper">
+                        <div class="header__dropdown">
+                            <button class="dropdown__btn">
+                                <div class="dropwdown__burger">
+                                    <span></span>
+                                </div>
+                                All Categories
+                            </button>
+                            <ul class="dropdown">
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Sofa
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Armchair
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Wing Chair
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Desk Chair
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Wooden Chair
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#!" class="dropdown__link">
+                                        Park Bench
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#!" class="nav__link">Home</a></li>
+                                <li class="nav__item"><a href="#!" class="nav__link">Shop</a></li>
+                                <li class="nav__item"><a href="#!" class="nav__link">Product</a></li>
+                                <li class="nav__item"><a href="#!" class="nav__link">Pages</a></li>
+                                <li class="nav__item"><a href="#!" class="nav__link">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__nav-contact">
+                        Contact:
+                        <a href="tel:8085550111" class="header__nav-tel">(808) 555-0111</a>
+                    </div>
+                    <button class="mobile-menu__btn">
+                        <div class="menu__burger">
+                            <span></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container-big">
+                <div class="hero__inner">
+                    <button class="hero__slider-arrow hero__slider-arrow--left">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.5 7.5L4 12M4 12L8.5 16.5M4 12H20" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="hero__slider-arrow hero__slider-arrow--right">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="hero-slider">
+                        <div class="swiper-pagination hero-pagination"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="hero-slide">
+                                    <div class="hero__info">
+                                        <div class="hero__subtitle">Welcome to chairy</div>
+                                        <h1 class="hero__title">Best Furniture Collection for your interior.</h1>
+                                        <a href="#!" class="btn hero__btn">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="hero-slide">
+                                    <div class="hero__info">
+                                        <div class="hero__subtitle">Welcome to chairy</div>
+                                        <h1 class="hero__title">Best Furniture Collection for your interior.</h1>
+                                        <a href="#!" class="btn hero__btn">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="hero-slide">
+                                    <div class="hero__info">
+                                        <div class="hero__subtitle">Welcome to chairy</div>
+                                        <h1 class="hero__title">Best Furniture Collection for your interior.</h1>
+                                        <a href="#!" class="btn hero__btn">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="services__inner">
+                    <ul class="services__list">
+                        <li class="services__item">
+                           <div class="services__img">
+                                <img src="./img/icons/box.svg" alt="Box">
+                           </div>
+                           <div class="services__text">
+                                <h3 class="services__title">Discount</h3>
+                                <span class="services__desc">Every week new sales</span>
+                           </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img">
+                                <img src="./img/icons/truck.svg" alt="Box">
+                           </div>
+                           <div class="services__text">
+                                <h3 class="services__title">Free Delivery</h3>
+                                <span class="services__desc">100% Free for all orders</span>
+                           </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img">
+                                <img src="./img/icons/24-hours.svg" alt="Box">
+                           </div>
+                           <div class="services__text">
+                                <h3 class="services__title">Great Support 24/7</h3>
+                                <span class="services__desc">We care your experiences</span>
+                           </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img">
+                                <img src="./img/icons/shield.svg" alt="Box">
+                           </div>
+                           <div class="services__text">
+                                <h3 class="services__title">secure Payment</h3>
+                                <span class="services__desc">100% Secure Payment Method</span>
+                           </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="company">
+            <div class="container">
+                <div class="company__inner">
+                    <ul class="company__list">
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-1.png" alt="Zapier"></a>
+                        </li>
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-2.png" alt="Pipedrive"></a>
+                        </li>
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-3.png" alt="CIB BANK"></a>
+                        </li>
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-4.png" alt="Z"></a>
+                        </li>
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-5.png" alt="BURN TOAST"></a>
+                        </li>
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-6.png" alt="PandaDoc"></a>
+                        </li>
+                        <li class="company__item">
+                            <a href="#!" class="company__link"><img src="./img/companies/company-7.png" alt="MOZ"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="featured">
+            <div class="container">
+                <div class="featured__inner">
+                    <div class="featured__top">
+                        <h2 class="title-2 featured__title">Featured Products</h2>
+                        <div class="slider__btns">
+                            <button class="slider-arrow__btn featured-slider-arrow__left">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.5 7.5L4 12M4 12L8.5 16.5M4 12H20" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="slider-arrow__btn featured-slider-arrow__right">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="card__list">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-1.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-2.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-3.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-4.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-2.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-4.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <div class="categories__inner">
+                    <div class="categories__top">
+                        <h2 class="title-2 categories__title">Top categories</h2>
+                        <div class="slider__btns">
+                            <button class="slider-arrow__btn categories-slider-arrow__left">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.5 7.5L4 12M4 12L8.5 16.5M4 12H20" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="slider-arrow__btn categories-slider-arrow__right">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="categories__list">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="categories__item">
+                                    <img src="./img/categories/cat-1.jpg" alt="Wing Chair">
+                                    <div class="categories__info">
+                                        <h3 class="categories__info-title">Wing Chair</h3>
+                                        <span class="categories__info-quantity">3,584 Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories__item">
+                                    <img src="./img/categories/cat-2.jpg" alt="Wooden Chair">
+                                    <div class="categories__info">
+                                        <h3 class="categories__info-title">Wooden Chair</h3>
+                                        <span class="categories__info-quantity">157 Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories__item">
+                                    <img src="./img/categories/cat-3.jpg" alt="Desk Chair">
+                                    <div class="categories__info">
+                                        <h3 class="categories__info-title">Desk Chair</h3>
+                                        <span class="categories__info-quantity">134 Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories__item">
+                                    <img src="./img/categories/cat-4.jpg" alt="Park Bench">
+                                    <div class="categories__info">
+                                        <h3 class="categories__info-title">Park Bench</h3>
+                                        <span class="categories__info-quantity">194 Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories__item">
+                                    <img src="./img/categories/cat-5.jpg" alt="Desk Chair">
+                                    <div class="categories__info">
+                                        <h3 class="categories__info-title">Desk Chair</h3>
+                                        <span class="categories__info-quantity">354 Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="products__inner">
+                    <h2 class="title-2 products__title">Our Products</h2>
+                    <ul class="products__tabs">
+                        <li class="products__tabs-item ">
+                            <button data-f="all" class="products__tabs-btn products__tabs-btn--all products__tabs-btn--active">All</button>
+                        </li>
+                        <li class="products__tabs-item">
+                            <button data-f="newest" class="products__tabs-btn products__tabs-btn--newest">Newest</button>
+                        </li>
+                        <li class="products__tabs-item">
+                            <button data-f="trending" class="products__tabs-btn products__tabs-btn--trending">Trending</button>
+                        </li>
+                        <li class="products__tabs-item">
+                            <button data-f="best-sellers" class="products__tabs-btn products__tabs-btn--best-sellers">Best Sellers</button>
+                        </li>
+                        <li class="products__tabs-item">
+                            <button data-f="featured-item" class="products__tabs-btn products__tabs-btn--featured">Featured</button>
+                        </li>
+                    </ul>
+                    <ul class="products__list">
+                        <li class="card__item all newest featured-item">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-1.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all newest best-sellers">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-3.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all newest featured-item">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-2.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all best-sellers">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-3.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all featured-item">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-4.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all newest best-sellers">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-2.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all trending">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-1.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card__item all newest trending">
+                            <a href="#!" class="card__link">
+                                <div class="card__img">
+                                    <img src="./img/cards/card-4.jpg" alt="New">
+                                    <div class="card__info">New</div>
+                                    <button class="card__favorites">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__desc">
+                                        <h3 class="card__title">Library Stool Chair</h3>
+                                        <span class="card__price">$20</span>
+                                    </div>
+                                    <button data-cart class="card__cart">
+                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__inner">
+                    <div class="feedback__top">
+                        <h2 class="title-2 feedback__title">What client says about us</h2>
+                        <div class="slider__btns">
+                            <button class="slider-arrow__btn feedback-slider-arrow__left">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.5 7.5L4 12M4 12L8.5 16.5M4 12H20" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="slider-arrow__btn feedback-slider-arrow__right">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="feedback__cards">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Vivamus sit amet mi nec massa tincidunt blandit et eu sem. 
+                                            Maecenas laoreet ultrices diam dignissim posuere. 
+                                            Aenean ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus. 
+                                            In ac bibendum ex. Aenean dolor massa, euismod sit amet suscipit et“
+                                        </p>
+                                    </div>
+                                    <div class="feedback__user">
+                                        <img src="./img/icons/avatar-1.svg" alt="" class="feedback__user-img">
+                                        <div class="feedback__user-info">
+                                            <h3 class="feedback__user-name">Kristin Watson</h3>
+                                            <span class="feedback__user-prof">Fashion Designer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <p>
+                                            Nullam sapien elit, dignissim eu viverra et, scelerisque et felis. 
+                                            Aliquam egestas dui elit, quis tincidunt lacus aliquam et. Duis nulla velit, 
+                                            dignissim ut odio ac, eleifend luctus leo. Ut ac imperdiet velit. 
+                                            Aliquam semper ex in volutpat rutrum. 
+                                        </p>
+                                    </div>
+                                    <div class="feedback__user">
+                                        <img src="./img/icons/avatar-2.svg" alt="" class="feedback__user-img">
+                                        <div class="feedback__user-info">
+                                            <h3 class="feedback__user-name">Esther Howard</h3>
+                                            <span class="feedback__user-prof">Fashion Designer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <p>
+                                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            Vivamus sit amet mi nec massa tincidunt blandit et eu sem. 
+                                            Maecenas laoreet ultrices diam dignissim posuere. 
+                                            Aenean ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus. 
+                                            In ac bibendum ex. Aenean dolor massa, euismod sit amet suscipit et“
+                                        </p>
+                                    </div>
+                                    <div class="feedback__user">
+                                        <img src="./img/icons/avatar-1.svg" alt="" class="feedback__user-img">
+                                        <div class="feedback__user-info">
+                                            <h3 class="feedback__user-name">Kristin Watson</h3>
+                                            <span class="feedback__user-prof">Fashion Designer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="feedback__card">
+                                    <div class="feedback__text">
+                                        <p>
+                                            Nullam sapien elit, dignissim eu viverra et, scelerisque et felis. 
+                                            Aliquam egestas dui elit, quis tincidunt lacus aliquam et. Duis nulla velit, 
+                                            dignissim ut odio ac, eleifend luctus leo. Ut ac imperdiet velit. 
+                                            Aliquam semper ex in volutpat rutrum. 
+                                        </p>
+                                    </div>
+                                    <div class="feedback__user">
+                                        <img src="./img/icons/avatar-2.svg" alt="" class="feedback__user-img">
+                                        <div class="feedback__user-info">
+                                            <h3 class="feedback__user-name">Esther Howard</h3>
+                                            <span class="feedback__user-prof">Fashion Designer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recently">
+            <div class="container">
+                <div class="recently__inner">
+                    <div class="recently__top">
+                        <h2 class="title-2 recently__title">recently Added</h2>
+                        <div class="slider__btns">
+                            <button class="slider-arrow__btn recently-slider-arrow__left">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.5 7.5L4 12M4 12L8.5 16.5M4 12H20" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="slider-arrow__btn recently-slider-arrow__right">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="recently__cards">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-4.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-1.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-2.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-3.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-1.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="swiper-slide">
+                                <li class="card__item">
+                                    <a href="#!" class="card__link">
+                                        <div class="card__img">
+                                            <img src="./img/cards/card-2.jpg" alt="New">
+                                            <div class="card__info">New</div>
+                                            <button class="card__favorites">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63268 10.6315C1.64909 7.56068 2.79768 4.05077 6.02251 3.01218C6.85874 2.74461 7.74682 2.68088 8.61268 2.8263C9.47855 2.97173 10.2971 3.3221 11 3.84818C12.3338 2.81693 14.2743 2.4686 15.9683 3.01218C19.1923 4.05077 20.3491 7.56068 19.3664 10.6315C17.8356 15.499 11 19.2482 11 19.2482C11 19.2482 4.21484 15.5558 2.63268 10.6315V10.6315Z" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="card__bottom">
+                                            <div class="card__desc">
+                                                <h3 class="card__title">Library Stool Chair</h3>
+                                                <span class="card__price">$20</span>
+                                            </div>
+                                            <button data-cart class="card__cart">
+                                                <svg width="24" height="25" viewBox="0 0 24 25" fill="" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M2.75 3.75L4.83 4.11L5.793 15.583C5.82999 16.0345 6.03584 16.4554 6.36948 16.7618C6.70312 17.0682 7.14002 17.2375 7.593 17.236H18.503C18.9367 17.2365 19.3561 17.0803 19.6838 16.7963C20.0116 16.5122 20.2258 16.1194 20.287 15.69L21.237 9.132C21.2623 8.95759 21.253 8.7799 21.2096 8.60909C21.1662 8.43828 21.0896 8.2777 20.9841 8.13653C20.8786 7.99536 20.7463 7.87637 20.5947 7.78637C20.4432 7.69637 20.2754 7.63711 20.101 7.612C20.037 7.605 5.164 7.6 5.164 7.6" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M14.125 11.295H16.898" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15401 20.703C7.22735 20.6999 7.30056 20.7116 7.36924 20.7375C7.43793 20.7634 7.50066 20.8029 7.55366 20.8537C7.60667 20.9045 7.64885 20.9655 7.67766 21.033C7.70648 21.1005 7.72133 21.1731 7.72133 21.2465C7.72133 21.3199 7.70648 21.3926 7.67766 21.4601C7.64885 21.5276 7.60667 21.5886 7.55366 21.6393C7.50066 21.6901 7.43793 21.7296 7.36924 21.7555C7.30056 21.7814 7.22735 21.7932 7.15401 21.79C7.0139 21.784 6.88152 21.7241 6.78451 21.6228C6.68749 21.5216 6.63333 21.3868 6.63333 21.2465C6.63333 21.1063 6.68749 20.9715 6.78451 20.8702C6.88152 20.7689 7.0139 20.709 7.15401 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.435 20.703C18.5795 20.703 18.7181 20.7604 18.8204 20.8626C18.9226 20.9648 18.98 21.1035 18.98 21.248C18.98 21.3925 18.9226 21.5312 18.8204 21.6334C18.7181 21.7356 18.5795 21.793 18.435 21.793C18.2904 21.793 18.1518 21.7356 18.0496 21.6334C17.9474 21.5312 17.89 21.3925 17.89 21.248C17.89 21.1035 17.9474 20.9648 18.0496 20.8626C18.1518 20.7604 18.2904 20.703 18.435 20.703Z" fill="" stroke="" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <a href="#!" class="footer__logo">
+                        <img src="./img/icons/logo.svg" alt="Logo">
+                    </a>
+                    <p class="footer__desc">
+                        Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.
+                        Cras egestas purus 
+                    </p>
+                    <ul class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_1875)">
+                                    <path d="M16 8C16 3.58167 12.4183 0 8 0C3.58167 0 0 3.58167 0 8C0 11.993 2.92533 15.3027 6.75 15.9027V10.3127H4.71867V8H6.75V6.23733C6.75 4.23267 7.94433 3.125 9.77167 3.125C10.6467 3.125 11.5623 3.28133 11.5623 3.28133V5.25H10.5537C9.56 5.25 9.25 5.86667 9.25 6.5V8H11.4687L11.114 10.3127H9.25V15.9027C13.0747 15.3027 16 11.9927 16 8Z" fill=""/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_1875">
+                                    <rect width="16" height="16" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_1879)">
+                                    <path d="M5.03333 14.5001C11.07 14.5001 14.3723 9.49813 14.3723 5.16146C14.3723 5.0208 14.369 4.87713 14.3627 4.73646C15.0052 4.27179 15.5596 3.69621 16 3.0368C15.4017 3.3028 14.7667 3.4768 14.116 3.55213C14.8008 3.14166 15.3136 2.49681 15.5593 1.73713C14.915 2.11902 14.2104 2.38843 13.4757 2.5338C12.9807 2.00757 12.3261 1.65911 11.6132 1.54228C10.9002 1.42546 10.1687 1.54679 9.53161 1.88752C8.89456 2.22824 8.38752 2.76937 8.08891 3.42721C7.79031 4.08506 7.71677 4.82296 7.87967 5.5268C6.575 5.46133 5.29865 5.12242 4.13336 4.53206C2.96806 3.94169 1.93984 3.11303 1.11533 2.0998C0.696305 2.82229 0.568091 3.67723 0.756747 4.49086C0.945403 5.30449 1.43677 6.01576 2.131 6.48013C1.60977 6.46361 1.09995 6.3233 0.643667 6.0708V6.11146C0.643231 6.86962 0.905349 7.60455 1.38547 8.19131C1.86559 8.77808 2.53409 9.18048 3.27733 9.33013C2.79463 9.46221 2.28801 9.48149 1.79667 9.38646C2.00644 10.0385 2.41454 10.6087 2.964 11.0176C3.51346 11.4266 4.17688 11.6537 4.86167 11.6675C4.18054 12.2026 3.40049 12.5981 2.56623 12.8313C1.73197 13.0644 0.859899 13.1306 0 13.0261C1.50191 13.9895 3.24899 14.5012 5.03333 14.5001Z" fill=""/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_1879">
+                                    <rect width="16" height="16" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.6667 4.66667C10.6667 4.48986 10.7369 4.32029 10.8619 4.19526C10.987 4.07024 11.1565 4 11.3334 4C11.5102 4 11.6797 4.07024 11.8048 4.19526C11.9298 4.32029 12 4.48986 12 4.66667C12 4.84348 11.9298 5.01305 11.8048 5.13807C11.6797 5.2631 11.5102 5.33333 11.3334 5.33333C11.1565 5.33333 10.987 5.2631 10.8619 5.13807C10.7369 5.01305 10.6667 4.84348 10.6667 4.66667Z" fill=""/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00004 4.8335C7.16019 4.8335 6.35473 5.16713 5.76087 5.76099C5.167 6.35486 4.83337 7.16031 4.83337 8.00016C4.83337 8.84001 5.167 9.64547 5.76087 10.2393C6.35473 10.8332 7.16019 11.1668 8.00004 11.1668C8.83989 11.1668 9.64535 10.8332 10.2392 10.2393C10.8331 9.64547 11.1667 8.84001 11.1667 8.00016C11.1667 7.16031 10.8331 6.35486 10.2392 5.76099C9.64535 5.16713 8.83989 4.8335 8.00004 4.8335ZM5.83337 8.00016C5.83337 7.42553 6.06165 6.87443 6.46798 6.4681C6.87431 6.06177 7.42541 5.8335 8.00004 5.8335C8.57468 5.8335 9.12578 6.06177 9.53211 6.4681C9.93843 6.87443 10.1667 7.42553 10.1667 8.00016C10.1667 8.5748 9.93843 9.1259 9.53211 9.53223C9.12578 9.93856 8.57468 10.1668 8.00004 10.1668C7.42541 10.1668 6.87431 9.93856 6.46798 9.53223C6.06165 9.1259 5.83337 8.5748 5.83337 8.00016Z" fill=""/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5054 1.88877C9.1756 1.6305 6.82444 1.6305 4.49468 1.88877C3.15335 2.03877 2.07002 3.09544 1.91268 4.44344C1.63628 6.80649 1.63628 9.19371 1.91268 11.5568C2.07002 12.9048 3.15268 13.9614 4.49468 14.1114C6.80535 14.3694 9.19468 14.3694 11.5054 14.1114C12.8467 13.9614 13.93 12.9048 14.0874 11.5568C14.3638 9.19372 14.3638 6.80649 14.0874 4.44344C13.93 3.09544 12.8474 2.03877 11.5054 1.88877ZM4.60535 2.8821C6.86155 2.63202 9.13848 2.63202 11.3947 2.8821C12.2813 2.9821 12.9914 3.68144 13.0947 4.5601C13.362 6.84565 13.362 9.15456 13.0947 11.4401C12.9914 12.3188 12.2813 13.0188 11.3947 13.1174C9.13848 13.3675 6.86155 13.3675 4.60535 13.1174C3.71868 13.0188 3.00868 12.3188 2.90535 11.4401C2.63805 9.15456 2.63805 6.84565 2.90535 4.5601C3.00868 3.68144 3.71868 2.98144 4.60535 2.88277V2.8821Z" fill=""/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_1893)">
+                                    <path d="M8 0C3.58133 0 0 3.58133 0 8C0 11.3907 2.10933 14.2843 5.08433 15.45C5.01567 14.8157 4.95 13.8467 5.11267 13.1563C5.25933 12.5313 6.05 9.18133 6.05 9.18133C6.05 9.18133 5.80933 8.703 5.80933 7.99367C5.80933 6.88133 6.453 6.05 7.256 6.05C7.93733 6.05 8.26867 6.56267 8.26867 7.178C8.26867 7.86566 7.83133 8.89066 7.60633 9.84066C7.41867 10.6373 8.00633 11.2873 8.79067 11.2873C10.2123 11.2873 11.3063 9.78733 11.3063 7.625C11.3063 5.70933 9.93133 4.36867 7.96567 4.36867C5.69067 4.36867 4.353 6.075 4.353 7.84066C4.353 8.528 4.61867 9.26566 4.95 9.66566C5.01567 9.74366 5.025 9.81566 5.00633 9.89366C4.947 10.147 4.80967 10.6903 4.78433 10.8C4.75 10.9467 4.66867 10.978 4.51567 10.9063C3.51567 10.4407 2.89067 8.98133 2.89067 7.80633C2.89067 5.28133 4.725 2.96567 8.175 2.96567C10.95 2.96567 13.1063 4.94367 13.1063 7.58733C13.1063 10.344 11.3687 12.5623 8.95633 12.5623C8.147 12.5623 7.38433 12.1407 7.122 11.6437C7.122 11.6437 6.722 13.172 6.625 13.547C6.44367 14.2403 5.95633 15.1127 5.63133 15.6437C6.3986 15.8804 7.19706 16.0005 8 16C12.4187 16 16 12.4187 16 8C16 3.58133 12.4187 0 8 0Z" fill=""/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1_1893">
+                                    <rect width="16" height="16" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#!" class="footer__social-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.8407 4.79983C15.8407 4.79983 15.6843 3.69649 15.203 3.21249C14.5937 2.57483 13.9123 2.57183 13.6 2.53416C11.3627 2.37183 8.00333 2.37183 8.00333 2.37183H7.99667C7.99667 2.37183 4.63767 2.37183 2.4 2.53416C2.08733 2.57183 1.40633 2.57483 0.796667 3.21249C0.316 3.69649 0.162667 4.79983 0.162667 4.79983C0.162667 4.79983 0 6.09649 0 7.39049V8.60283C0 9.89683 0.159333 11.1935 0.159333 11.1935C0.159333 11.1935 0.315667 12.2968 0.793667 12.7812C1.403 13.4185 2.203 13.3968 2.55933 13.4655C3.84067 13.5875 8 13.6248 8 13.6248C8 13.6248 11.3623 13.6185 13.6 13.4592C13.9127 13.4218 14.5937 13.4185 15.2033 12.7812C15.6843 12.2968 15.8407 11.1935 15.8407 11.1935C15.8407 11.1935 16 9.90016 16 8.60316V7.39083C16 6.09716 15.8407 4.80016 15.8407 4.80016V4.79983ZM6.34667 10.0748V5.57816L10.6683 7.83416L6.34667 10.0748Z" fill=""/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">Category</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Sofa</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Armchair</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Wing Chair</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Desk Chair</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">wooden Chair</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Park Bench</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Help & Support</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Tearms & Conditions</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Privacy Policy</a></li>
+                        <li class="footer__list-item"><a href="#!" class="footer__list-link">Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">Newsletter</h3>
+                    <form class="footer__form">
+                        <input type="email" class="footer__input" placeholder="Your email">
+                        <button class="footer__btn">Subscribe</button>
+                    </form>
+                    <p class="footer__form-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="footer__copyright-inner">
+                    <div class="footer__copyright-text">
+                        @ 2021 - Blogy - Designed & Develop by <span>Zakirsoft</span>
+                    </div>
+                    <ul class="paymant__list">
+                        <li class="paymant__item"><a href="#!" class="paymant__link"><img src="./img/icons/mastercard.svg" alt="Mastercard"></a></li>
+                        <li class="paymant__item"><a href="#!" class="paymant__link"><img src="./img/icons/paypal.svg" alt="PayPal"></a></li>
+                        <li class="paymant__item"><a href="#!" class="paymant__link"><img src="./img/icons/express.svg" alt="AmericanExpress"></a></li>
+                        <li class="paymant__item"><a href="#!" class="paymant__link"><img src="./img/icons/visa.svg" alt="VISA"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/sliders.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mobile.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.company {
+    padding: 32px 0;
+}
+
+.company__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width: 768px) {
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+}
+
+.company__item {
+    transition: transform 0.3s ease-in;
+    &:hover {
+        transform: translateY(-2px);
+    }
+}

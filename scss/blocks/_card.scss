@@ -1,0 +1,146 @@
+.card__list {
+    overflow: hidden;
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // gap: 24px;
+}
+
+.card__link {
+    display: block;
+    max-width: 312px;
+}
+
+.card__img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.card__info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #01ad5a;
+
+    @media(max-width: 650px) {
+        top: 10px;
+        left: 10px;
+    }
+}
+
+.card__favorites {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+
+    svg {
+        stroke: #272343;
+        fill: white;
+        transition: fill 0.3s ease-in;
+    }
+
+    &--active {
+        svg {
+            fill: red;
+        }
+    }
+
+    &:hover {
+        svg {
+            fill: red;
+            animation: heart-animation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+    }
+
+    @media(max-width: 650px) {
+        top: 10px;
+        right: 10px;
+        width: 34px;
+        height: 34px;
+    }
+}
+
+.card__bottom { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.card__title {
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #007580;
+}
+
+.card__price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #272343;
+}
+
+.card__cart {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 44px;
+    height: 44px;
+    background-color: #f0f2f3;
+    transition: background-color 0.3s ease-in;
+
+    svg {
+        pointer-events: none;
+        fill: #f0f2f3;
+        stroke: #272343;
+        transition: fill 0.3s ease-in, stroke 0.3s ease-in;
+    }
+
+    &--active {
+        background-color: #029fae;
+        svg {
+            stroke: #fff;
+            fill: #029fae;
+        }
+    }
+
+    &:hover {
+        background-color: #029fae;
+        svg {
+            stroke: #fff;
+            fill: #029fae;
+        }
+    }
+
+}

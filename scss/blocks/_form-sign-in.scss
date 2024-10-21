@@ -1,0 +1,128 @@
+.sign-in {
+    padding: 80px 0;
+}
+
+.sign-in__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.form-sign-in {
+    display: flex;
+    flex-direction: column;
+    max-width: 648px;
+    width: 100%;
+    padding: 32px;
+    padding-bottom: 24px;
+    box-shadow: 0 0 30px 0 rgba(39, 35, 67, 0.12);
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.sign-in__title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sign-in__input {
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 17px 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #222;
+    border-radius: 8px;
+    background-color: rgba(#f0f2f3, 0.7);
+
+    &::placeholder {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: #9a9caa;
+    }
+}
+
+.checkbox__wrapper {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+}
+
+.custom-checkbox__input {
+    position: absolute;
+    opacity: 0;
+
+    &:checked {
+        +.custom-checkbox__icon::after {
+            opacity: 1;
+        }
+    }
+}
+
+.custom-checkbox__icon {
+    position: relative;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border: 1.50px solid #9a9caa;
+    border-radius: 4px;
+    background-color: #fff;
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: -1px;
+        z-index: 5;
+        background-image: url('./../img/icons/checkmark.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+    }
+}
+
+.custom-checkbox__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #636270;
+}
+
+.forget__password {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #007580;
+}
+
+.registration {
+    padding-top: 24px;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    color: #272343;
+}
+
+.registration__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    color: #007580;
+}

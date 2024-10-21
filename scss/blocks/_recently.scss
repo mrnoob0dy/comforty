@@ -1,0 +1,25 @@
+.recently {
+    padding: 80px 0 103px;
+
+    @media(max-width: 520px) {
+        padding: 60px 0 70px;
+    }
+}
+
+.recently__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    @media(max-width: 768px) {
+        margin-bottom: 30px;
+    }
+}
+
+.recently__cards {
+    overflow: hidden;
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // gap: 24px;
+}
